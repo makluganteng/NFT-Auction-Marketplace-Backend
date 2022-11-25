@@ -5,7 +5,7 @@ export class CreateListDto {
   token_id: string;
 
   @IsNotEmpty()
-  startingPrice: number;
+  startingPrice: any;
 
   @IsNotEmpty()
   hours: any;
